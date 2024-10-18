@@ -10,11 +10,11 @@ export default function Contact() {
                 logo={Logo}
                 name="QuantumSky Solutions"
                 nav_items={[
-                    { text: 'Home', href: "/"},
+                    { text: 'Home', href: "/" },
                     { text: 'Solutions', href: "/contact", disabled: true },
                     { text: 'About us', href: "/about", disabled: true },
                     { text: 'Pricing', href: "/pricing", disabled: true },
-                    { text: 'Contact', href: "/contact",  active: true },
+                    { text: 'Contact', href: "/contact", active: true },
                 ]}
             />
 
