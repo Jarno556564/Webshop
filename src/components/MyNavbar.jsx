@@ -15,7 +15,7 @@ function MyNavbar({ logo, name, nav_items }) {
                     <ul className="navbar-nav ms-auto">
                         {nav_items.map((item, index) => (
                             <li className="nav-item ms-auto " key={index}>
-                                <Link className={`nav-link ${item.disabled ? 'disabled' : ''} ${item.active ? 'active' : ''}`} to={item.href} disabled={item.disabled}>{item.text}</Link>
+                                <Link className={`nav-link ${item.disabled ? 'disabled' : ''}${item.active ? 'active' : ''}`} to={item.href} disabled={item.disabled}>{item.text}</Link>
                             </li>
                         ))}
                     </ul>

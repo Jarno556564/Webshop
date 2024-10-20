@@ -1,5 +1,19 @@
+$card-border-width: 0;
+$enable-negative-margins: true;
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 .navbar-brand img {
     max-height: 4rem;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.footer-logo {
+    max-height: 4rem;
+}
+
+.footer-nav {
+    list-style-type: none;
 }
